@@ -4,6 +4,10 @@ Desktop and console tool to bulk-download media from a Telegram channel or group
 
 The core application is cross-platform Python. Windows launchers are included for convenience, and the same GUI / CLI can also run on Linux or macOS with Python directly.
 
+## Screenshot
+
+![Telegram Downloader desktop app](docs/screenshot-main.png)
+
 ## Features
 
 - Flat download layout: every file is saved into one destination folder
