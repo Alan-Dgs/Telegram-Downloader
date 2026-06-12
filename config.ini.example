@@ -1,0 +1,25 @@
+[telegram]
+api_id =
+api_hash =
+source = -1001234567890
+
+[download]
+destination = ~/Downloads/Telegram Files
+session = .state/telegram_downloader
+state_db = .state/download_state.sqlite3
+include = all
+extensions =
+filter_preset = Everything
+extract_zips = false
+keep_archives = true
+retries = 3
+workers = 4
+part_size_kb = 512
+progress_interval = 1.0
+stall_timeout = 120
+test_source =
+test_duration_seconds = 15
+test_sample_size = 3
+test_block_min = 128
+test_block_max = 512
+test_worker_max = 4
